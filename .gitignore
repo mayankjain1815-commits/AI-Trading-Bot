@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Secrets and credentials — never commit trading or broker API keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*_rsa
+*_rsa.pub
+*_ed25519
+*_ed25519.pub
+credentials.json
+secrets.json
+
+# Test / coverage / type-checking caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and generated run output — these are run artifacts, not source.
+# Historical output is kept in git history; do not track new runs.
+logs/
+*.log
+
+# Downloaded model weights (FinBERT / HuggingFace caches are large and reproducible)
+.cache/
+huggingface/
+hf_cache/
+models/
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Notebooks
+.ipynb_checkpoints/
